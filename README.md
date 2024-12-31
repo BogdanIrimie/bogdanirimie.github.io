@@ -1,2 +1,2 @@
 # irimiebogdan.github.io
-Personal website
+Company website
