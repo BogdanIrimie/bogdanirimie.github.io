@@ -6,6 +6,40 @@
     <title>InfoDrop - Software Development Services</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-container {
+            margin: 0;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 8rem;
+            padding: 2rem 5% 3rem;
+            align-items: center;
+        }
+        .hero-text {
+            position: relative;
+            z-index: 1;
+        }
+        .hero-text h1 {
+            font-size: 6rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        .hero-text p {
+            font-size: 3rem;
+            margin: 1.5rem 0;
+            text-align: left;
+        }
+        .hero-logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .hero-logo {
+            width: 300px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,16 +52,16 @@
 
     <main>
         <section class="hero" style="background: #0066FF; width: 100%;">
-            <div style="margin: 0; display: grid; grid-template-columns: 2fr 1fr; gap: 8rem; padding: 2rem 5% 3rem; align-items: center;">
-                <div style="position: relative; z-index: 1;">
-                    <h1 style="font-size: 6rem; line-height: 1.2; margin-bottom: 1rem; text-align: left;">InfoDrop</h1>
-                    <p style="font-size: 3rem; margin: 1.5rem 0; text-align: left;">The digital road to optimize your potential.</p>
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>InfoDrop</h1>
+                    <p>The digital road to optimize your potential.</p>
                     <div class="cta-buttons" style="text-align: left;">
                         <a href="#contact-section" class="cta-button">Get in Touch</a>
                     </div>
                 </div>
-                <div style="display: flex; align-items: center; justify-content: flex-end;" class="hero-logo-container">
-                    <img src="images/logo.png" alt="InfoDrop Logo" style="width: 300px; height: auto;" class="hero-logo">
+                <div class="hero-logo-container">
+                    <img src="images/logo.png" alt="InfoDrop Logo" class="hero-logo">
                 </div>
             </div>
         </section>
